@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-<a href="proposal.md">Project Proposal</a> <a href="report.md"</a>
+<a href="proposal.md">Project Proposal</a> <a href="report.md">Project Report</a>
 
 You can use the [editor on GitHub](https://github.com/cathymf/dentalvr/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
