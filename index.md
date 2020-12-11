@@ -3,6 +3,8 @@
 <p><a href="proposal.md">Project Proposal</a> <br /><a href="report2.md">Project Report</a></p>
 
 <br /><br /> <br />
+<p>HTML version without theme</p>
+<p><a href="proposal.html">Project Proposal</a> <br /><a href="report.html">Project Report</a></p>
 
 
 ### Support or Contact
