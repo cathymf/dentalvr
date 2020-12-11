@@ -1,3 +1,5 @@
+<a href="/">Home</a>
+
 # Project Proposal
 
 ## Virtual Reality System for Enhancing Oral Health in Young Children
