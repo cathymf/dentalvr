@@ -9,7 +9,7 @@ The aim of the project was to deliver a virtual reality program where users, par
 ### 2. Methodology
 The main starting point of the project was to take pictures of teeth from one or two subjects and stitch these images together to form the 360 degree view. That process had a fatal flaw, in the age of COVID-19, I was limited to two teenage-minded male subjects, who were not too keen about showing their teeth to the universe. That was compounded by the fact that the main camera used was the Raspberry Pi night vision camera which total apparatus measured 3 x 1.5 x 1.5. The pictures I got were not of good enough quality to stitch together to form a 360 degree view. In the end I resorted to using images that I found on the web. However, they were not able  to create a panoramic view, so I ended up placing the images as texture on 3D objects and allowed the user to walk around these objects.
 
-The project has 6 scenes:\s
+The project has 6 scenes:
   - Start scene
   - Scene with persons face
   - Scene with teeth (not opened)
@@ -31,7 +31,7 @@ Player controller placed on top the cylinder emulating the player on tongue, wal
 Similar to previous scene.
 
 ### 3. Technical highlights
-Some of the technical highlights were:\s
+Some of the technical highlights were:
   
 - Manipulation of the OVR player controller, such as, the placement of the player, ability to move the player around the scene, restrict the player movement to certain areas.
 - Building the environment including the skybox.
