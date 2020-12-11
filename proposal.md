@@ -6,6 +6,7 @@ Most young children have an incredible fear of visiting the dentist, but it is a
 
 ### 2. Design 
 The project will involve taking multiple images of the participants teeth, using a night vision camera attached to a Raspberry Pi. Images will be taken at as many angles as possible to form a composite image of all teeth in the mouth. The composite image will be portrayed on a wall at a very enlarged scale. The child can open the mouth image and walk inside their mouth and squat down to see a much closer and detailed view of their teeth. Turning around will allow them to see the inside parts of their teeth that they don’t normally see. They can also see areas with visible decay. Information can be provided on various aspects of the teeth and oral hygiene. The information provided will be dependent on hand gestures/controller buttons. Having a personal upfront view of their teeth (instead of a generic mouth) might encourage them to take better care of their teeth.
+
 ### 3.Devices:
 - Raspberry Pi 4 with night vision camera that will capture images of the mouth/teeth.
 - Images will be sent to Windows machine
@@ -15,8 +16,10 @@ The project will involve taking multiple images of the participants teeth, using
 
 ### 3. Virtual Reality Environment.
 The composite image will get larger as the user walks towards a certain point. At a certain threshold, the user can use hand gestures/controller buttons to open the mouth and step inside. Squatting will provide a closer view of the inside of the lower teeth, while standing will result in seeing the inside of the upper teeth. Stepping away past a certain threshold will put the user outside the mouth. There will be icons which the user can click on, that will provide information about the tooth or oral hygiene.
+
 ### 4. Virtual Reality Environment.
 The composite image will get larger as the user walks towards a certain point. At a certain threshold, the user can use hand gestures/controller buttons to open the mouth and step inside. Squatting will provide a closer view of the inside of the lower teeth, while standing will result in seeing the inside of the upper teeth. Stepping away past a certain threshold will put the user outside the mouth. There will be icons which the user can click on, that will provide information about the tooth or oral hygiene.
+
 ### 5. Major work to be done include:
 - Stitching all images together that can create a composite image of the inside and outside of the tooth/mouth
 - Setting boundaries/threshold to view/step into inside or outside of mouth
