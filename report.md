@@ -1,6 +1,3 @@
----
-layout: default
----
 
 <h1>Project Report</h1>
 <h2>Virtual Reality System for Enhancing Oral Health in Young Children- test</h2>
