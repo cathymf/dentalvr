@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-<a href="proposal.html">Project Proposal</a> <a href="report.html">Project Report</a>
+<a href="proposal.html">Project Proposal</a> <br /><a href="report.md">Project Report</a>
 
 <br /><br /> <br />
 
