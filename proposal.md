@@ -1,4 +1,4 @@
-<a href="/cathymf/dentalvr">Home</a>
+<a href="index">Home</a>
 
 # Project Proposal
 
