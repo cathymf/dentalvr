@@ -1,4 +1,3 @@
-
 # Project Report
 ## Virtual Reality System for Enhancing Oral Health in Young Children 
 
