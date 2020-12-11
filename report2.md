@@ -1,36 +1,34 @@
-<h1>Project Report</h1>
-<h2>Virtual Reality System for Enhancing Oral Health in Young Children- test</h2>
+# Project Report
+## Virtual Reality System for Enhancing Oral Health in Young Children- test
 
-<p><i>Cathalina Fontenelle</i></p>
+*Cathalina Fontenelle*
 
-<h3>1. Objective</h3>
-<p>The aim of the project was to deliver a virtual reality program where users, particularly children could get an in-depth and upfront view of their teeth, with the hope that it would inspire better dental hygiene from an early age. The experience would be like walking inside of one’s own mouth and being able to look at each tooth individually at multiple angles, like a 360 degree (almost) view of the teeth, inside and outside, and crowns. Since the tooth would be at an enhanced scale, it would be easier to see nuances of each tooth. It would provide the user with information about the tooth, provide status of tooth (such as having a cavity), and ability to do  fun things such as naming the tooth.</p>
+### 1. Objective
+The aim of the project was to deliver a virtual reality program where users, particularly children could get an in-depth and upfront view of their teeth, with the hope that it would inspire better dental hygiene from an early age. The experience would be like walking inside of one’s own mouth and being able to look at each tooth individually at multiple angles, like a 360 degree (almost) view of the teeth, inside and outside, and crowns. Since the tooth would be at an enhanced scale, it would be easier to see nuances of each tooth. It would provide the user with information about the tooth, provide status of tooth (such as having a cavity), and ability to do  fun things such as naming the tooth.
 
-<h3>2. Methodology</h3>
-<p>The main starting point of the project was to take pictures of teeth from one or two subjects and stitch these images together to form the 360 degree view. That process had a fatal flaw, in the age of COVID-19, I was limited to two teenage-minded male subjects, who were not too keen about showing their teeth to the universe. That was compounded by the fact that the main camera used was the Raspberry Pi night vision camera which total apparatus measured 3 x 1.5 x 1.5. The pictures I got were not of good enough quality to stitch together to form a 360 degree view. In the end I resorted to using images that I found on the web. However, they were not able  to create a panoramic view, so I ended up placing the images as texture on 3D objects and allowed the user to walk around these objects.</p>
+### 2. Methodology
+The main starting point of the project was to take pictures of teeth from one or two subjects and stitch these images together to form the 360 degree view. That process had a fatal flaw, in the age of COVID-19, I was limited to two teenage-minded male subjects, who were not too keen about showing their teeth to the universe. That was compounded by the fact that the main camera used was the Raspberry Pi night vision camera which total apparatus measured 3 x 1.5 x 1.5. The pictures I got were not of good enough quality to stitch together to form a 360 degree view. In the end I resorted to using images that I found on the web. However, they were not able  to create a panoramic view, so I ended up placing the images as texture on 3D objects and allowed the user to walk around these objects.
 
-<p>The project has 6 scenes:<br />
-  <ul>
-    <li>Start scene</li>
-    <li>Scene with persons face</li>
-    <li>Scene with teeth (not opened)</li>
-    <li>Scene with open mouth</li>
-    <li>Scene with just lower teeth</li>
-    <li>Scene with just upper teeth</li>
-</ul>
-</p>
-<h4>Start Scene<h4>
-  <p>Menu buttons to start/exit</p>
-  <h4>Scene with persons face</h4>
-<p>A gentle introduction to the program, the player’s face is placed in an interesting environment. In this project I used a background from a Harry Potter’s game. Tried to create a dedicated area for the player to walk, but left it and used planes instead to restrict the path to certain areas (all scenes). Message box which allows the player to go to the next scene or to the beginning scene (all scenes).</p>
-  <h4>Scene with teeth (unopened)</h4>
-<p>Created a skybox of pink color and red markings which was used as the background, to emulate cheeks and give the impression that the player is now inside the mouth. Player should be able to recognize distinct features of their teeth. Teeth image placed on cylinder which the player can walk around and view teeth.</p>
-  <h4>Scene with open mouth</h4>
-<p>Similar to the previous scene, player able to walk around the cheek area to see more of the teeth from multiple angles.</p>
-  <h4>Scene with just lower teeth</h4>
-<p>Player controller placed on top the cylinder emulating the player on tongue, walking around to examine each tooth from inside the mouth itself.</p>
-  <h4>Scene with upper teeth</h4>
-  <p>Similar to previous scene.</p>
+The project has 6 scenes:\s
+  - Start scene
+  - Scene with persons face
+  - Scene with teeth (not opened)
+  - Scene with open mouth
+  - Scene with just lower teeth
+  - Scene with just upper teeth
+
+#### Start Scene
+  Menu buttons to start/exit
+#### Scene with persons face
+A gentle introduction to the program, the player’s face is placed in an interesting environment. In this project I used a background from a Harry Potter’s game. Tried to create a dedicated area for the player to walk, but left it and used planes instead to restrict the path to certain areas (all scenes). Message box which allows the player to go to the next scene or to the beginning scene (all scenes).
+#### Scene with teeth (unopened)
+Created a skybox of pink color and red markings which was used as the background, to emulate cheeks and give the impression that the player is now inside the mouth. Player should be able to recognize distinct features of their teeth. Teeth image placed on cylinder which the player can walk around and view teeth.
+#### Scene with open mouth
+Similar to the previous scene, player able to walk around the cheek area to see more of the teeth from multiple angles.
+#### Scene with just lower teeth
+Player controller placed on top the cylinder emulating the player on tongue, walking around to examine each tooth from inside the mouth itself.
+#### Scene with upper teeth
+Similar to previous scene.
 
   <h3>3. Technical highlights</h3>
 <p>Some of the technical highlights were:<br />
