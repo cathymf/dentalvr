@@ -1,6 +1,8 @@
 # Project Proposal
 
 ## Virtual Reality System for Enhancing Oral Health in Young Children
+*Cathalina Fontenelle*
+
 ### 1. Introduction
 Most young children have an incredible fear of visiting the dentist, but it is also difficult to get young children to brush their teeth properly to mitigate frequent trips to the dentist. Studies have shown that teeth decay among children are increasing [1][2]. Untreated decay of primary teeth could lead to serious problems for many years, including problems with permanent teeth. Due to a number of factors such as fear of dentists, problems treating very young patients, lack of access to dental care and cost of dental care, many young children do not have access to adequate oral health procedures. Prevention of oral health issues at an early age can be done through the use of adequate brushing and flossing on a timely basis. Maybe if children could have a more intimate view of their teeth apart from just looking at it in the mirror, they may have a greater interest in keeping their teeth healthy.
 
