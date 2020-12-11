@@ -1,1 +1,75 @@
 <h1>Project Report</h1>
+<h2>Virtual Reality System for Enhancing Oral Health in Young Children</h2>
+
+<p><i>Cathalina Fontenelle</i></p>
+
+<h3>1. Objective</h3>
+<p>The aim of the project was to deliver a virtual reality program where users, particularly children could get an in-depth and upfront view of their teeth, with the hope that it would inspire better dental hygiene from an early age. The experience would be like walking inside of one’s own mouth and being able to look at each tooth individually at multiple angles, like a 360 degree (almost) view of the teeth, inside and outside, and crowns. Since the tooth would be at an enhanced scale, it would be easier to see nuances of each tooth. It would provide the user with information about the tooth, provide status of tooth (such as having a cavity), and ability to do  fun things such as naming the tooth.</p>
+
+<h3>2. Methodology</h3>
+<p>The main starting point of the project was to take pictures of teeth from one or two subjects and stitch these images together to form the 360 degree view. That process had a fatal flaw, in the age of COVID-19, I was limited to two teenage-minded male subjects, who were not too keen about showing their teeth to the universe. That was compounded by the fact that the main camera used was the Raspberry Pi night vision camera which total apparatus measured 3 x 1.5 x 1.5. The pictures I got were not of good enough quality to stitch together to form a 360 degree view. In the end I resorted to using images that I found on the web. However, they were not able  to create a panoramic view, so I ended up placing the images as texture on 3D objects and allowed the user to walk around these objects.</p>
+
+<p>The project has 6 scenes:<br />
+  <ul>
+    <li>Start scene</li>
+    <li>Scene with persons face</li>
+    <li>Scene with teeth (not opened)</li>
+    <li>Scene with open mouth</li>
+    <li>Scene with just lower teeth</li>
+    <li>Scene with just upper teeth</li>
+</ul>
+</p>
+<h4>Start Scene<h4>
+  <p>Menu buttons to start/exit</p>
+  <h4>Scene with persons face</h4>
+<p>A gentle introduction to the program, the player’s face is placed in an interesting environment. In this project I used a background from a Harry Potter’s game. Tried to create a dedicated area for the player to walk, but left it and used planes instead to restrict the path to certain areas (all scenes). Message box which allows the player to go to the next scene or to the beginning scene (all scenes).</p>
+  <h4>Scene with teeth (unopened)</h4>
+<p>Created a skybox of pink color and red markings which was used as the background, to emulate cheeks and give the impression that the player is now inside the mouth. Player should be able to recognize distinct features of their teeth. Teeth image placed on cylinder which the player can walk around and view teeth.</p>
+  <h4>Scene with open mouth</h4>
+<p>Similar to the previous scene, player able to walk around the cheek area to see more of the teeth from multiple angles.</p>
+  <h4>Scene with just lower teeth</h4>
+<p>Player controller placed on top the cylinder emulating the player on tongue, walking around to examine each tooth from inside the mouth itself.</p>
+  <h4>Scene with upper teeth</h4>
+  <p>Similar to previous scene.</p>
+
+  <h3>3. Technical highlights</h3>
+<p>Some of the technical highlights were:<br />
+  <ul>
+<li>Manipulation of the OVR player controller, such as, the placement of the player, ability to move the player around the scene, restrict the player movement to certain areas.</li>
+    <li>Building the environment including the skybox.</li>
+<li>Using multiple scenes and layers and moving from one scene to the next. Tried using multiple layers per scene, to show right and left side of teeth, hoping that would provide more detail per teeth than just the cylinder. The layer will appear based on proximity to player, but it didn’t quite work out.</li>
+    <li>Using the UIHelper features and using lasers from the controllers</li>
+  </ul>
+  </p>
+  <h3>4. Differentiating programs</h3>
+<p>While there are multiple programs that use 360 technology to show players around an environment, a search of the web did not provide any results on viewing one’s teeth in VR. Most dental VR programs were centered on using VR to calm the patient and not providing them more knowledge about their teeth. There are other VR programs on human anatomy but these are based on generic images. A difficulty with developing a personalized VR dental program will be in getting the images from the mouth/teeth to stitch together a good 360 degree rendition of it, and then uploading the images to the VR environment.</p>
+
+  <h3>5. Success of project</h3>
+<p>Although I did not obtain the images I needed to develop a well defined 360 degree environment, I think it shows the possibility as well as the difficulties in building a personalized dental VR program. The cylinder of images currently in use can be replaced with a better structure and the movement of the player in the environment and from scene to scene can remain the same. The learning aspects of working with objects in Unity and the integration with Oculus is also a plus. It also provided the opportunity to try out multiple image stitching software programs.</p>
+
+  <h3>6. New features for next time</h3>
+<p>There are a number of new features that I would like to implement if I had more time:<br />
+  <ul>
+<li>I would give the player the ability to tab on a tooth and be shown a message text, providing information about that tooth, such as the number it is called by the dentist, its type - molar/incisor, etc, ratings in its being prone to loss, difficulty in flossing, its use in eating/word pronunciation/face structure, etc, and encourage the player to name the tooth. This would require importing data in a JSON file into Unity and linking it for each tooth.</li>
+<li>Put more animation for the program, such as to show the mouth being gradually opened in scene 4. Showing a whirlpool movement at the back of the mouth for the throat area for scenes 4-6, showing proper brushing and flossing techniques.</li>
+    <li>More entertaining opening screen.</li>
+  </ul>
+  </p>
+
+<h3>7. Different approach to program</h3>
+<ul>
+<li>Take a different approach to obtaining the pictures for the environment, maybe use pictures from the web, but slice it in a manner to make the environment more realistic, and able to walk around better.</li>
+<li>Spend much less time taking pictures and trying to stitch them together for a panoramic view. <li>
+<li>Have a deeper understanding of Unity 3D objects and its capabilities.<li>
+  <li>Look into developing custom shapes in Unity.</li>
+  <li>Change size of player, so that player can see the images more at eye level</li>
+</ul>
+
+<h3>8. Acknowlegement for images used in project</h3>
+<ul>
+  <li>Scene 1 and 2 background - Udemy VR course</li>
+  <li>Scene 2 - Face picture - Luke </li>
+  <li>Scene 3 - </li>
+  <li>Scene 4 - </li>
+  <li>Scene 5 and 6 - </li>
+</ul>
