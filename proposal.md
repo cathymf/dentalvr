@@ -1,5 +1,4 @@
 <h1>Project Proposal</h1>
-<h1>Project Proposal</h1>
 
 <h2>Virtual Reality System for Enhancing Oral Health in Young Children</h2>
 <h3>1. Introduction</h3>
