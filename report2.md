@@ -1,4 +1,4 @@
-<a href="index">Home</a>
+<a href="https://cathymf.github.io/dentalvr/">Home</a>
 
 # Project Report
 ## Virtual Reality System for Enhancing Oral Health in Young Children 
