@@ -25,4 +25,5 @@ The composite image will get larger as the user walks towards a certain point. A
 
 ### 6. References:
 [1] Milgrom, P., Zero, D. T.,DDS, Tanzer, J. M. (2009). An Examination of the Advances in Science and Technology of Prevention of Tooth Decay in Young Children Since the Surgeon General's Report on Oral Health. Academic Pediatrics, 9(6), 404-409
+
 [2] Gibson‐Moore, H.,  Benelam, B., (2018). Young children and snacks – is tooth brushing alone not enough to prevent tooth decay? Nutrition Bulletin 43(3), 248-254
