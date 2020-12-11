@@ -1,6 +1,6 @@
 ## Welcome to VR Final Project pages
 
-<p><a href="proposal.md">Project Proposal</a> <br /><a href="report2.md">Project Report</a></p>
+<p><a href="proposal">Project Proposal</a> <br /><a href="report2">Project Report</a></p>
 
 <br /><br /> <br />
 <p>HTML version without theme</p>
