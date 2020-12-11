@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to VR Final Project pages
 
 <p><a href="proposal.html">Project Proposal</a> <br /><a href="report.html">Project Report</a></p>
 
