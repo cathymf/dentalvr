@@ -30,7 +30,7 @@ Player controller placed on top the cylinder emulating the player on tongue, wal
 #### Scene with upper teeth
 Similar to previous scene.
 
-  ### 3. Technical highlights
+### 3. Technical highlights
 Some of the technical highlights were:\s
   
 - Manipulation of the OVR player controller, such as, the placement of the player, ability to move the player around the scene, restrict the player movement to certain areas.
