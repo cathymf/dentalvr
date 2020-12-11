@@ -1,4 +1,4 @@
-<a href="index">Home</a>
+<a href="https://cathymf.github.io/dentalvr/">Home</a>
 
 # Project Proposal
 
