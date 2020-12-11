@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Project Report
 ## Virtual Reality System for Enhancing Oral Health in Young Children- test
 
@@ -30,44 +34,39 @@ Player controller placed on top the cylinder emulating the player on tongue, wal
 #### Scene with upper teeth
 Similar to previous scene.
 
-  <h3>3. Technical highlights</h3>
-<p>Some of the technical highlights were:<br />
-  <ul>
-<li>Manipulation of the OVR player controller, such as, the placement of the player, ability to move the player around the scene, restrict the player movement to certain areas.</li>
-    <li>Building the environment including the skybox.</li>
-<li>Using multiple scenes and layers and moving from one scene to the next. Tried using multiple layers per scene, to show right and left side of teeth, hoping that would provide more detail per teeth than just the cylinder. The layer will appear based on proximity to player, but it didn’t quite work out.</li>
-    <li>Using the UIHelper features and using lasers from the controllers</li>
-  </ul>
-  </p>
-  <h3>4. Differentiating programs</h3>
-<p>While there are multiple programs that use 360 technology to show players around an environment, a search of the web did not provide any results on viewing one’s teeth in VR. Most dental VR programs were centered on using VR to calm the patient and not providing them more knowledge about their teeth. There are other VR programs on human anatomy but these are based on generic images. A difficulty with developing a personalized VR dental program will be in getting the images from the mouth/teeth to stitch together a good 360 degree rendition of it, and then uploading the images to the VR environment.</p>
+  ### 3. Technical highlights
+Some of the technical highlights were:\s
+  
+- Manipulation of the OVR player controller, such as, the placement of the player, ability to move the player around the scene, restrict the player movement to certain areas.
+- Building the environment including the skybox.
+- Using multiple scenes and layers and moving from one scene to the next. Tried using multiple layers per scene, to show right and left side of teeth, hoping that would provide more detail per teeth than just the cylinder. The layer will appear based on proximity to player, but it didn’t quite work out.
+- Using the UIHelper features and using lasers from the controllers
+  
+### 4. Differentiating programs
+While there are multiple programs that use 360 technology to show players around an environment, a search of the web did not provide any results on viewing one’s teeth in VR. Most dental VR programs were centered on using VR to calm the patient and not providing them more knowledge about their teeth. There are other VR programs on human anatomy but these are based on generic images. A difficulty with developing a personalized VR dental program will be in getting the images from the mouth/teeth to stitch together a good 360 degree rendition of it, and then uploading the images to the VR environment.
 
-  <h3>5. Success of project</h3>
-<p>Although I did not obtain the images I needed to develop a well defined 360 degree environment, I think it shows the possibility as well as the difficulties in building a personalized dental VR program. The cylinder of images currently in use can be replaced with a better structure and the movement of the player in the environment and from scene to scene can remain the same. The learning aspects of working with objects in Unity and the integration with Oculus is also a plus. It also provided the opportunity to try out multiple image stitching software programs.</p>
+### 5. Success of project
+Although I did not obtain the images I needed to develop a well defined 360 degree environment, I think it shows the possibility as well as the difficulties in building a personalized dental VR program. The cylinder of images currently in use can be replaced with a better structure and the movement of the player in the environment and from scene to scene can remain the same. The learning aspects of working with objects in Unity and the integration with Oculus is also a plus. It also provided the opportunity to try out multiple image stitching software programs.
 
-  <h3>6. New features for next time</h3>
-<p>There are a number of new features that I would like to implement if I had more time:<br />
-  <ul>
-<li>I would give the player the ability to tab on a tooth and be shown a message text, providing information about that tooth, such as the number it is called by the dentist, its type - molar/incisor, etc, ratings in its being prone to loss, difficulty in flossing, its use in eating/word pronunciation/face structure, etc, and encourage the player to name the tooth. This would require importing data in a JSON file into Unity and linking it for each tooth.</li>
-<li>Put more animation for the program, such as to show the mouth being gradually opened in scene 4. Showing a whirlpool movement at the back of the mouth for the throat area for scenes 4-6, showing proper brushing and flossing techniques.</li>
-    <li>More entertaining opening screen.</li>
-  </ul>
-  </p>
+### 6. New features for next time
+There are a number of new features that I would like to implement if I had more time:\s
+- I would give the player the ability to tab on a tooth and be shown a message text, providing information about that tooth, such as the number it is called by the dentist, its type - molar/incisor, etc, ratings in its being prone to loss, difficulty in flossing, its use in eating/word pronunciation/face structure, etc, and encourage the player to name the tooth. This would require importing data in a JSON file into Unity and linking it for each tooth.
+- Put more animation for the program, such as to show the mouth being gradually opened in scene 4. Showing a whirlpool movement at the back of the mouth for the throat area for scenes 4-6, showing proper brushing and flossing techniques.
+- More entertaining opening screen.
 
-<h3>7. Different approach to program</h3>
-<ul>
-<li>Take a different approach to obtaining the pictures for the environment, maybe use pictures from the web, but slice it in a manner to make the environment more realistic, and able to walk around better.</li>
-<li>Spend much less time taking pictures and trying to stitch them together for a panoramic view. <li>
-<li>Have a deeper understanding of Unity 3D objects and its capabilities.<li>
-  <li>Look into developing custom shapes in Unity.</li>
-  <li>Change size of player, so that player can see the images more at eye level</li>
-</ul>
 
-<h3>8. Acknowlegement for images used in project</h3>
-<ul>
-  <li>Scene 1 and 2 background - Udemy VR course</li>
-  <li>Scene 2 - Face picture - Luke </li>
-  <li>Scene 3 - </li>
-  <li>Scene 4 - </li>
-  <li>Scene 5 and 6 - </li>
-</ul>
+### 7. Different approach to program
+- Take a different approach to obtaining the pictures for the environment, maybe use pictures from the web, but slice it in a manner to make the environment more realistic, and able to walk around better.
+- Spend much less time taking pictures and trying to stitch them together for a panoramic view. 
+- Have a deeper understanding of Unity 3D objects and its capabilities.
+- Look into developing custom shapes in Unity.
+- Change size of player, so that player can see the images more at eye level
+
+
+### 8. Acknowlegement for images used in project
+- Scene 1 and 2 background - Udemy VR course
+- Scene 2 - Face picture - Luke
+- Scene 3 - 
+- Scene 4 - 
+- Scene 5 and 6 - 
+
