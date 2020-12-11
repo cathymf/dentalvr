@@ -1,4 +1,4 @@
-<a href="/">Home</a>
+<a href="/cathymf/dentalvr">Home</a>
 
 # Project Report
 ## Virtual Reality System for Enhancing Oral Health in Young Children 
